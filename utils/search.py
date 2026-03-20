@@ -1,6 +1,7 @@
 import requests
 
-SERPER_API_KEY = "2dd8ef5924b3a758197d5fb4c2a7a88ef7c711e9"
+import os
+SERPER_API_KEY = os.environ.get("SERPER_API_KEY", "")
 
 def web_search(query):
     try:

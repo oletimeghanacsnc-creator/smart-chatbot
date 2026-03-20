@@ -1,6 +1,7 @@
+import os
 from groq import Groq
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 LLM_MODEL = "llama-3.3-70b-versatile"
 
 def get_response(messages, mode="Concise"):
