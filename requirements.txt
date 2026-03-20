@@ -1,0 +1,10 @@
+'''
+streamlit
+groq
+sentence-transformers
+faiss-cpu
+langchain
+langchain-community
+PyPDF2
+requests
+numpy
